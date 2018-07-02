@@ -50,6 +50,10 @@
 */
 #define MUP_BYTECODE_TYPE long
 
+#ifdef _UNICODE
+#undef _UNICODE
+#endif
+
 #if defined(_UNICODE)
   /** \brief Definition of the basic parser string type. */
   #define MUP_STRING_TYPE std::wstring
