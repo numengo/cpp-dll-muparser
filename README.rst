@@ -1,4 +1,4 @@
-muParser (v1.4.0) - the muparser fast math parser library
+muParser (vv1.4.1.) - the muparser fast math parser library
 ======================================================================
 
 
